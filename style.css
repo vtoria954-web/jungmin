@@ -1,0 +1,94 @@
+
+/* 전체 페이지 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #f1f5f9);
+    min-height: 100vh;
+
+}
+
+/* 회원정보 카드 */
+.container {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* 입력 그룹 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+/* 입력창 */
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+/* 입력창 클릭 시 */
+input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* 버튼 공통 */
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* 전송 버튼 */
+.submit-btn {
+    background: #4f46e5;
+    color: white;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: #4338ca;
+}
+
+/* 초기화 버튼 */
+.reset-btn {
+    background: #f1f5f9;
+    color: #475569;
+    margin-top: 10px;
+}
+
+.reset-btn:hover {
+    background: #e2e8f0;
+}
